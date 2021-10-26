@@ -1,5 +1,9 @@
 <?php
 
+
+/**
+ * selon l'action mentionner dans le URL à effectuer on fait appel à la fonction de  classe Animale qui lui correspond
+ */
 $action = empty($_GET['action']) ? "" : $_GET['action'];
 switch ($action) {
     case '':

@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * selon l'action mentionner dans le URL à effectuer on fait appel à la fonction de  classe Type qui lui correspond
+ */
 $action = $_GET['action'];
 switch ($action) {
     case 'list':
